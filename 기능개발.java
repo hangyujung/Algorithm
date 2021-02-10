@@ -1,32 +1,30 @@
+import java.util.ArrayList;
 class Solution {
     public int[] solution(int[] progresses, int[] speeds) {
-        int[] answer = new int[100];
-        
-        int[] days =new int[progresses.length];
-        for(int i=0;i<progresses.length;i++){
-            int day=1;
-            while (100>progresses[i]+speeds[i]*day){
+        int[] answer;
+
+        int[] dayOfend = new int[100];
+        int day = -1;
+        for(int i=0; i<progresses.length; i++) {
+            while(progresses[i] + (day*speeds[i]) < 100) {
                 day++;
             }
-            days[i]=day;
+            dayOfend[day]++;
         }
-        int min=days[0];
-        int count=1;
-        int sameday=1;
-        for(int i=1;i<days.length;i++){
-            if(min<days[i]){
-                count++;
-            }
-            else{
-                sameday++;
-            }
-            
-            answer[i-1]=sameday;
+        
+        ArrayList<Integer> list = new ArrayList<>();
+        for(int i : dayOfend) {
+            System.out.println(i);
+            if(i!=0) {list.add(i);}
         }
-        for(int d : answer){
-            System.out.println(d);
+
+        answer = new int[list.size()];
+        for(int i=0; i<answer.length; i++) {
+            answer[i] = list.get(i);
         }
-    
+
         return answer;
     }
 }
+
+//스택 큐 lv2
