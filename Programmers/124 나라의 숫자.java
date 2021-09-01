@@ -1,4 +1,5 @@
 class Solution {
+  
   public String solution(int n) {
       String[] numbers = {"4", "1", "2"};
       String answer = "";
