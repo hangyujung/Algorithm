@@ -1,0 +1,75 @@
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.StringTokenizer;
+
+//시간제한: 초
+public class Main {
+	static ArrayList<ArrayList<Integer>> list;
+	static boolean[] visited;
+	private static int count,N;
+	public static void main(String[] args) throws IOException {
+		BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
+		StringBuilder sb = new StringBuilder();
+		StringTokenizer st;
+		
+		int T = Integer.parseInt(br.readLine());
+		for(int t=0;t<T;t++) {
+			list = new ArrayList<ArrayList<Integer>>();
+			count=0;
+			st= new StringTokenizer(br.readLine());
+			N = Integer.parseInt(st.nextToken());
+			visited = new boolean[N+1];
+			for(int n=0;n<N+1;n++) {
+				list.add(new ArrayList<Integer>());
+			}
+			int M = Integer.parseInt(st.nextToken());
+			
+			for(int m=0;m<M;m++) {
+				st = new StringTokenizer(br.readLine());
+				int start = Integer.parseInt(st.nextToken());
+				int end = Integer.parseInt(st.nextToken());
+				list.get(start).add(end);
+				list.get(end).add(start);
+			}
+			
+			bfs();
+			System.out.println(count);
+		}
+		
+	}
+	
+	private static void bfs() {
+		Queue<Integer> q = new LinkedList<>();   //import.java.util.*
+		q.add(1);
+		visited[1]=true;
+		
+		while(!q.isEmpty()) {
+			int size = q.size();
+		
+			for(int i=0;i<size;i++) {
+				int temp=q.poll();
+				for(int data:list.get(temp)) {
+					if(!visited[data]) {
+						count++;
+						q.add(data);
+						visited[data]=true;
+						if(check(visited)) return;
+					}
+				}
+			}
+		}
+	}
+	private static boolean check(boolean[] visited) {
+		for(int i=1;i<=N;i++) {
+			if(!visited[i]) return false;
+		}
+		return true;
+	}
+	
+}
