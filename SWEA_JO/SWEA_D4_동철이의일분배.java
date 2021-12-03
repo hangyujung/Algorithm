@@ -19,7 +19,7 @@ public class SWEA_D4_동철이의일분배 {
 		for(int t=1;t<=T;t++) {
 			N = Integer.parseInt(br.readLine());
 			maps = new int[N][N];
-			
+			max=0.0;
 			for(int r=0;r<N;r++) {
 				st= new StringTokenizer(br.readLine());
 				for(int c=0;c<N;c++) {
@@ -30,13 +30,14 @@ public class SWEA_D4_동철이의일분배 {
 			for(int c=0;c<N;c++) {
 				visited_cols = new boolean[N];
 				visited_cols[c]=true;
-				dfs(0,c,maps[0][c]);
+				dfs(0,c,maps[0][c]*0.01);
 			}
+			max*=100;
 			String num = String.format("%.6f", max);
+			sb.append("#"+t+" "+num+"\n");
 			
-			System.out.println(num);
 		}
-		
+			System.out.println(sb);
 		
 	}
 
@@ -46,8 +47,10 @@ public class SWEA_D4_동철이의일분배 {
 			return;
 		}
 		
+		if(total<=max)return;
 		for(int next_C=0;next_C<N;next_C++) {
 			if(!visited_cols[next_C]) {
+//				if( total*maps[r+1][next_C]*0.01 < max ) continue;
 				visited_cols[next_C] = true;
 				dfs(r+1,next_C,total*maps[r+1][next_C]*0.01);
  				visited_cols[next_C] =false;
