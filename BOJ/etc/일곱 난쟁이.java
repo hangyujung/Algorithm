@@ -1,9 +1,10 @@
+
 import java.awt.*;
 import java.io.*;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class BOJ_일곱난쟁이 {
 
     public static void main(String[] args)  {
 
