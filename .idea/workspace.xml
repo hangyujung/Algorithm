@@ -2,69 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13c24955-b229-4df2-b579-2f2becaafaff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/124 나라의 숫자.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/124 나라의 숫자.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2016년.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/2016년.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3진법 뒤집기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/3진법 뒤집기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H_index. java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/H_index. java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JadenCase 문자열 만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/JadenCase 문자열 만들기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K번쨰 수.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/K번쨰 수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/N개의 최소공배수.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/N개의 최소공배수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/가운데 글자 가져오기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/가운데 글자 가져오기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/가장 큰 수.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/가장 큰 수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/가장 큰 정사각형찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/가장 큰 정사각형찾기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/같은 숫자는 싫어.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/같은 숫자는 싫어.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/구명보트.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/구명보트.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기능개발.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/기능개발.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/나누어 떨어지는 숫자 배열.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/나누어 떨어지는 숫자 배열.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/다리를 지나는 트럭.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/다리를 지나는 트럭.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/다음 큰 숫자.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/다음 큰 숫자.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/더 맵게.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/더 맵게.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/두 개 뽑아서 더하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/두 개 뽑아서 더하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/두 정수 사이의 합.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/두 정수 사이의 합.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/땅따먹기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/땅따먹기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/멀쩡한사각형.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/멀쩡한사각형.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/모의고사.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/모의고사.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/문자열 내 p와 y의 개수.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/문자열 내 p와 y의 개수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/문자열 내 마음대로 정렬하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/문자열 내 마음대로 정렬하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/문자열 내림차순으로 정렬하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/문자열 내림차순으로 정렬하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/문자열 다루기 기본.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/문자열 다루기 기본.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/문자열 압축.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/문자열 압축.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/문자열을 정수로 바꾸기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/문자열을 정수로 바꾸기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/삼각 달팽이.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/삼각 달팽이.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/서울에서 김서방 찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/서울에서 김서방 찾기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/소수 만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/소수 만들기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/소수 찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/소수 찾기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/소수찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/소수찾기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/수박수박수박수.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/수박수박수박수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/스킬트리.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/스킬트리.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/시저 암호.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/시저 암호.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/약수의 합.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/약수의 합.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/예산.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/예산.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/올바른 괄호.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/올바른 괄호.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/완주하지 못한 선수.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/완주하지 못한 선수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/위장.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/위장.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/이상한 문자 만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/이상한 문자 만들기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/이진 변환 반복하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/이진 변환 반복하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자릿수 더하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/자릿수 더하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/자연수 뒤집어 배열로 만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/자연수 뒤집어 배열로 만들기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/전화번호 목록.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/전화번호 목록.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/정수 내림차순으로 배치하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/정수 내림차순으로 배치하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/정수 제곱근 판별.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/정수 제곱근 판별.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/제일 작은 수 제거하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/제일 작은 수 제거하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/조이스틱.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/조이스틱.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/주식가격.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/주식가격.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/짝지어 제거하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/짝지어 제거하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/체육복.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/체육복.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최댓값과 최솟값.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/최댓값과 최솟값.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최솟값 만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/최솟값 만들기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/카펫.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/카펫.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/큰 수 만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/큰 수 만들기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/타겟 넘버.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/타겟 넘버.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/폰켓몬.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/폰켓몬.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/프린터.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/프린터.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/피보나치 수.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/피보나치 수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/행렬의 곱셈.java" beforeDir="false" afterPath="$PROJECT_DIR$/Programmers/행렬의 곱셈.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +23,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -113,6 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628419838485</updated>
       <workItem from="1628419839629" duration="712000" />
+      <workItem from="1641371768704" duration="948000" />
     </task>
     <servers />
   </component>
