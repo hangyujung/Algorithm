@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13c24955-b229-4df2-b579-2f2becaafaff" name="Default Changelist" comment="0105gyu">
-      <change afterPath="$PROJECT_DIR$/BOJ/etc/BOJ_S3_숫자정사각형.java" afterDir="false" />
+    <list default="true" id="13c24955-b229-4df2-b579-2f2becaafaff" name="Default Changelist" comment="0106gyu">
+      <change afterPath="$PROJECT_DIR$/BOJ/etc/BOJ_G4_스타트택시.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BOJ/etc/BOJ_G5_문자열게임2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,10 +54,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\eclipse-workspace\Algorithm\BOJ\etc" />
       <recent name="C:\Users\multicampus\eclipse-workspace\Algorithm\BOJ\BFS" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_G4_스타트택시">
+  <component name="RunManager" selected="Application.BOJ_G5_문자열게임2">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -75,6 +77,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BOJ_G5_문자열게임2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ_G5_문자열게임2" />
+      <module name="Algo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BOJ_S3_숫자정사각형" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ_S3_숫자정사각형" />
       <module name="Algo" />
@@ -82,17 +91,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hello" />
-      <module name="Algo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_G5_문자열게임2" />
         <item itemvalue="Application.BOJ_G4_스타트택시" />
-        <item itemvalue="Application.Hello" />
         <item itemvalue="Application.BOJ_S3_숫자정사각형" />
       </list>
     </recent_temporary>
@@ -107,7 +109,8 @@
       <updated>1628419838485</updated>
       <workItem from="1628419839629" duration="712000" />
       <workItem from="1641371768704" duration="1651000" />
-      <workItem from="1641454835941" duration="9594000" />
+      <workItem from="1641454835941" duration="10209000" />
+      <workItem from="1641819653961" duration="2700000" />
     </task>
     <task id="LOCAL-00001" summary="0105gyu">
       <created>1641373201137</created>
@@ -116,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641373201137</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0106gyu">
+      <created>1641480941266</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1641480941266</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +145,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0105gyu" />
-    <option name="LAST_COMMIT_MESSAGE" value="0105gyu" />
+    <MESSAGE value="0106gyu" />
+    <option name="LAST_COMMIT_MESSAGE" value="0106gyu" />
   </component>
 </project>
